@@ -1,5 +1,9 @@
+a {
+	text-decoration: none;
+}
+
 .navbar {
-	background-color: #27bcde;
+	background-color: #bbb;
 }
 
 .navbar-list {
@@ -25,7 +29,7 @@
 }
 
 .section {
-	padding: 0;
+	padding: 50px 0;
 }
 
 .about-content,
@@ -33,8 +37,12 @@
 	margin: 30px auto;
 }
 
+/* HOME */
 .home {
+	/*background-image: url('../images/qnc.jpg');
+	background-size: cover;*/
 	background-color: #ddd;
+	padding: 30px 0;
 }
 
 .profile-picture {
@@ -46,13 +54,61 @@
     border-radius: 50%;
 }
 
+/* SKILLS */
+.skills {
+	background-image: url('../images/phone-lighter.jpg');
+	background-size: cover;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.skills-title {
+	margin: 10px 0;
+}
+
+/* PROJECTS */
+.projects {
+/*	background-image: url('../images/mac.jpg');
+	background-size: cover;*/
+	background-color: #ddd;
+	text-align: center;
+}
+
+.projects-image {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.projects-caption {
+	margin: 0px 0 10px;
+}
+
+.prefooter {
+	padding: 10px 0;
+	background-color: #ddd;
+	text-align: center;
+}
+
+.prefooter-link {
+	display: inline-block;
+}
+
+.prefooter-image {
+	margin: 0 10px;
+	width: 30px;
+	height: 30px;
+}
+
+/* FOOTER */
 .footer {
-	background-color: #888;
+	bottom: 0;
+	margin: 0;
+	background-color: #bbb;
 }
 
 .footer-text {
 	text-align: center;
-	color: #fff;
+	color: #222;
 	font-size: 11px;
 	padding-top: 10px;
 	padding-bottom: 10px;

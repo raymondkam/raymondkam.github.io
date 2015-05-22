@@ -30,14 +30,18 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="u-full-width">
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item">
             <a href="#about" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#projects" class="navbar-link">Projects</a>
           </li>
           <li class="navbar-item">
             <a href="resume.pdf" class="navbar-link">Resume</a>
@@ -49,26 +53,83 @@
       </div>
     </nav>
     
-    <div class="section home">
+    <div id="about" class="section home">
       <div class="container">
         <div class="row">
-          <div class="one-third column">
+          <div class="five columns">
             <img src="images/profile.jpg" class="profile-picture content">
           </div>
-          <div class="two-thirds column about-content">
+          <div class="seven columns about-content">
             <h4>Hi, I'm Raymond</h4>
-            <p>I'm extremely enthusiastic about technology and mobile related things. I'm currently a computer engineering student at the University of Waterloo.</p>
+            <p>I'm extremely enthusiastic about technology and mobile related things. I love reading up on the latest computer hardware and especially on mobile phones and gadgets. But most important of all, I like to solve problems. I'm currently a third-year computer engineering student at the University of Waterloo.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="u-full-width footer">
-       <p class="footer-text">Website created by Raymond Kam © 2015</p>
-     </div>
+    <div id="skills" class="section skills">
+      <div class="container">
+        <h3>I AM GOOD AT MOBILE</h3>
+        <div class="row">
+          <div class="one-third column">
+            <img src="images/android.png">
+            <h5 class="skills-title">Android</h5>
+            <p>I have experience building Android appplications in during my internship at Metroland Media Group and at Fixmo, in addition to time spent building apps in school and in my free time.</p>
+          </div>
+          <div class="one-third column">
+            <img src="images/apple.png">
+            <h5 class="skills-title">iOS</h5>
+            <p>I am well-versed with iOS development. During my internship at Digiflare, I built many core features for a new iOS Video On Demand application from the ground up for both iPhone and iPad and was involved in solving many complicated UI challenges. These features included the welcome, episode listing, settings, and authentication screens.</p>
+          </div>
+          <div class="one-third column">
+            <img src="images/web.png">
+            <h5 class="skills-title">Web</h5>
+            <p>I have built native mobile applications using Appcelerator Titanium, a framework that uses web technologies such as JavaScript and CSS. I have also built a full web application called rChat. It is built using the original LAMP stack with HTML, CSS, and JQuery Mobile and allows users to manage their groups for group SMS using the Twitter API.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="section projects">
+      <div class="container">
+        <h3>PAST PROJECTS</h3>
+        <div class="row">
+          <div class="one-third column">
+            <img src="images/timberman-clone.jpg" class="projects-image">
+            <p class="projects-caption">Timberman Clone, a clone of the popular mobile game Timberman built using Appcelerator Titanium.</p>
+            <a href="https://github.com/raymondkam/timberman-clone" class="button">Source</a>
+          </div>
+          <div class="one-third column">
+            <img src="images/rchat.jpg" class="projects-image">
+            <p class="projects-caption">rChat, a web application for managing user SMS groups. Uses the Twitter API to allow users to send SMS to a group of people. Built using the LAMP stack, HTML, CSS, and JQuery Mobile.</p>
+            <a href="http://defyent.com/sandbox/rchat/" class="button">Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prefooter">
+      <div class="container">
+        <a href="https://ca.linkedin.com/pub/raymond-kam/57/6a2/258" class="prefooter-link">
+          <img src="images/linkedin.png" class="prefooter-image">
+        </a>
+        <a href="https://github.com/raymondkam">
+          <img src="images/github.png" class="prefooter-image">
+        </a>
+        <a href="mailto:raymondhmkam@gmail.com">
+          <img src="images/mailto.png" class="prefooter-image">
+        </a>
+      </div>
+    </div>
+
   </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+<footer>
+  <div class="u-full-width footer">
+    <p class="footer-text">Website created by Raymond Kam © 2015</p>
+  </div>
+</footer>
+
 </html>
