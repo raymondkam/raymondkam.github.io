@@ -2,8 +2,13 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+    color: #eee;
+}
+
 .navbar {
-	background-color: #bbb;
+	background-image: url('../images/mac-lighter.jpg');
+	background-size: cover;
 }
 
 .navbar-list {
