@@ -24,11 +24,26 @@
 	line-height: 6.5rem;
 }
 
+.section {
+	padding: 0;
+}
+
+.about-content,
+.content {
+	margin: 30px auto;
+}
+
+.home {
+	background-color: #ddd;
+}
+
 .profile-picture {
-	float:right;
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
+	display: block;
+	width: 75%;
+    height: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .footer {
@@ -41,4 +56,18 @@
 	font-size: 11px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+	.profile-picture {
+		width: 60%;
+	}
+
+	.content {
+		margin: 20px auto;
+	}
+
+	.about-content {
+		margin: 0;
+	}
 }
